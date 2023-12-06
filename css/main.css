@@ -301,7 +301,7 @@ header {
   background-color: #3A3A3A;
 }
 header .inner {
-  max-width: 1020px;
+  max-width: 1040px;
 }
 header ul.menu {
   height: 40px;
@@ -358,17 +358,17 @@ nav .inner h1 {
   padding: 15px 20px;
   margin-left: 40px;
 }
-nav ul.menu {
+nav .menu {
   display: flex;
   margin-right: 10px;
-
+  gap: 10px;
 }
-nav ul.menu li a {
+nav .menu li a {
   font-size: 12px;
   display: block;
   padding: 20px;
 }
-nav ul.menu li.active {
+nav .menu li.active {
   opacity: .5;
 }
 nav .btn {
@@ -467,7 +467,7 @@ nav .btn {
   height: 773px;
 }
 .power .arcade figure {
-  transform: translate(-300px, -65px);
+  transform: translate(-320px, -65px);
 }
 .power .arcade figcaption {
   width: 150px;
@@ -475,8 +475,14 @@ nav .btn {
   background-image: url(../images/power_arcade_caption.png);
   transform: translate(480px, 650px);
 }
+.power .arcade .infos {
+  transform: translate(0, -50px);
+}
 .power .create {
 
+}
+.power .create .infos {
+  transform: translate(20px, -340px);
 }
 .power .create .figures {
   height: 1070px;
@@ -527,6 +533,9 @@ nav .btn {
   background-image: url(../images/display_shareplay_caption.png);
   transform: translate(300px, 660px);
 }
+.display .shareplay .infos {
+  transform: translate(0, -80px);
+}
 .camera {
   margin-top: 0px;
 }
@@ -537,7 +546,10 @@ nav .btn {
   width: 650px;
   height: 450px;
   background-image: url(../images/camera_headline.png);
-  transform: translate(-25px, 270px);
+  transform: translate(-35px, 270px);
+}
+.camera .info {
+  transform: translate(630px, -35px);
 }
 .camera .stage .figures {
   height: 770px;
@@ -568,6 +580,9 @@ nav .btn {
 } 
 .camera .edit {
 
+}
+.camera .edit .infos {
+  transform: translate(-640px, 0);
 }
 .camera .edit .figures {
   height: 1035px;
@@ -648,14 +663,22 @@ nav .btn {
   background-image: url(../images/accessories_caption_supports.png);
   transform: translate(160px, 830px);
 }
+.accessories .infos {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 .ipados {
-
+  margin-top: 200px;
 }
 .ipados h1 {
   width: 530px;
   height: 400px;
   background-image: url(../images/ipados_headline.png);
   margin: 0 auto;
+}
+.ipados .infos {
+  transform: translate(600px, 40px);
 }
 .ipados .figures {
   height: 800px;
@@ -695,6 +718,9 @@ nav .btn {
   height: 264px;
   background-image: url(../images/apps_headline.png);
   transform: translate(0, 100px);
+}
+.apps .infos {
+  transform: translate(50px, 150px);
 }
 .apps .figures {
   height: 800px;
@@ -754,7 +780,9 @@ transform: translate(530px, 460px);
   transform: translate(540px, 140px);
   position: relative;
   z-index: 1;
-
+}
+.privacy .infos {
+  transform: translate(540px, 170px);
 }
 .privacy .figures {
 
@@ -783,6 +811,9 @@ transform: translate(530px, 460px);
   height: 270px;
   background-image: url(../images/accessibility_headline.png);
   transform: translate(0, 300px);
+}
+.accessibility .infos {
+  transform: translate(0, 330px);
 }
 .accessibility .figures {
   height: 600px;
@@ -912,7 +943,12 @@ footer .breadcrumbs .apple-logo {
   height: 20px;
   background-image: url(../images/path_apple.svg);
 }
+.footer .navigations {
 
+}
+.footer .navigations .map {
+  
+}
 
 
 
