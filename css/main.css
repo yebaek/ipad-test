@@ -337,6 +337,11 @@ header ul.menu li.basket-starter a {
 header ul.menu li a:hover {
   opacity: 1;
 }
+@media (max-width: 1000px) {
+  header .inner {
+    padding: 0 10px;
+  }
+}
 
 nav {
   height: 50px;
@@ -435,6 +440,40 @@ nav .btn {
 .hero .links {
   margin-top: 25px;
 }
+@media (max-width: 1000px) {
+  .hero .inner {
+    padding-bottom: 80px;
+  }
+  .hero h1 {
+    width: 166px;
+    height: 68px;
+    transform: translate(448px, 165px);
+  }
+  .hero .figures {
+    width: 692px;
+    height: 584px;
+    margin-bottom: 110px;
+  }
+  .hero figure {
+    transform: translate(70px, -25px);
+  }
+  .hero figure img {
+    width: 540px;
+  }
+  .hero figure figcaption .caption-camera {
+    transform: scale(.8) translate(-10px, 530px);
+  }
+  .hero figure figcaption .caption-chip {
+    transform: scale(.8) translate(510px, 420px);
+  }
+  .hero figure figcaption .caption-storage {
+    transform: scale(.8) translate(560px, 560px);
+  }
+  .hero h2 {
+    width: 515px;
+    height: 95px;
+  }
+}
 
 .power {
   margin-top: 100px;
@@ -496,6 +535,66 @@ nav .btn {
   background-image: url(../images/power_create_caption.png);
   transform: translate(550px, 905px);
 }
+@media (max-width: 1000px) {
+  .power {
+
+  }
+  .power .inner {
+
+  }
+  .power .multiple-apps h1 {
+    width: 310px;
+    height: 180px;
+  }
+  .power .multiple-apps .figures {
+    height: 600px;
+  }
+  .power .multiple-apps figure {
+    transform: translate(70px, 0);
+  }
+  .power .multiple-apps figure img {
+    width: 682px;
+    height: 503px;
+  }
+  .power .multiple-apps figcaption {
+    transform: scale(.8) translate(530px, -58px);
+  }
+  .power .arcade {
+    margin-top: 0;
+  }
+  .power .arcade .figures {
+    height: 480px;
+  }
+  .power .arcade figure {
+    transform: translate(-180px, -90px);
+  }
+  .power .arcade figure img {
+    width: 676px;
+    height: 506px;
+  }
+  .power .arcade .infos {
+    transform: translate(10px, -90px);
+  }
+  .power .arcade figcaption {
+    transform: scale(.8) translate(310px, 520px);
+  }
+  .power .create .infos {
+    transform: translate(0px, -40px);
+  }
+  .power .create .figures {
+    height: 588px;
+  }
+  .power .create figure {
+    transform: translate(5px, -65px);
+  }
+  .power .create figure img {
+    width: 820px;
+    height: 704px;
+  }
+  .power .create figcaption {
+    transform: scale(.8) translate(420px, 740px);
+  }
+}
 .display {
  margin-top: 100px;
 }
@@ -535,6 +634,46 @@ nav .btn {
 }
 .display .shareplay .infos {
   transform: translate(0, -80px);
+}
+@media (max-width: 1000px) {
+  .display {
+    margin-top: 180px;
+  }
+  .display .inner {
+    margin-top: 180px;
+  }
+  .display .notes h1 {
+    width: 400px;
+    height: 240px;
+    transform: translate(120px, -30px);
+  }
+  .display .notes .figures {
+    height: 530px;
+  }
+  .display .notes figure {
+    transform: translate(80px, -35px);
+  }
+  .display .notes figure img {
+    width: 676px;
+  }
+  .display .notes figcaption {
+    transform: scale(.8) translate(540px, -34px);
+  }
+  .display .shareplay .figures {
+    height: 330px;
+  }
+  .display .shareplay figure {
+    transform: translate(-180px, 30px);
+  }
+  .display .shareplay figure img {
+    width: 682px;
+  }
+  .display .shareplay figcaption {
+    transform: scale(.8) translate(260px, 540px);
+  }
+  .display .shareplay .infos {
+    transform: translate(0px, 30px);
+  }
 }
 .camera {
   margin-top: 0px;
@@ -595,6 +734,52 @@ nav .btn {
   height: 47px;
   background-image: url(../images/camera_edit_caption.png);
   transform: translate(25px, 900px);
+}
+@media (max-width: 1000px) {
+  .camera {
+    margin-top: 165px;
+  }
+  .camera .inner {
+
+  }
+  .camera .stage h1 {
+    width: 405px;
+    height: 270px;
+    transform: translate(0, 0);
+  }
+  .camera .stage .info {
+    transform: translate(460px, -270px);
+  }
+  .camera .stage .figures {
+    height: 500px;
+  }
+  .camera .stage figure {
+    transform: translate(90px, -250px);
+  }
+  .camera .stage figure img {
+    width: 678px;
+  }
+  .camera .stage .controller--pause {
+    transform: translate(270px, -85px) rotate(-3deg);
+  }
+  .camera .stage figcaption {
+    transform: scale(.8) translate(-130px, 320px);
+  }
+  .camera .edit .infos {
+    transform: translate(-620px, -210px);
+  }
+  .camera .edit .figures {
+    height: auto;
+  }
+  .camera .edit figure {
+    transform: translate(40px, -260px);
+  }
+  .camera .edit figure img {
+    width: 509px;
+  }
+  .camera .edit figcaption {
+    transform: scale(.8) translate(20px, 750px);
+  }
 }
 
 .wireless {
