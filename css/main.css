@@ -554,28 +554,28 @@ nav .btn {
     transform: scale(1) translate(20px, 360px);
   }
   .hero figure figcaption .caption-chip {
-    
+    transform: scale(.8) translate(240px, 30px);
   }
   .hero figure figcaption .caption-storage {
-
+    transform: scale(.8) translate(280px, 160px);
   }
   .hero h2 {
     width: 295px;
     height: 185px;
     background-image: url(../images/hero_headline_mobile.png);
-    transform: none;
+    transform: translate(0, -230px);
   }
   .hero p.pricing {
     font-size: 20px;
-    /* transform: translate(0, 100px); */
+    transform: translate(0, -120px);
   }
   .hero p.description {
     width: auto;
     font-size: 17px;
-    /* transform: translate(0, 100px); */
+    transform: translate(0, -100px);
   }
   .hero .links {
-    /* transform: translate(0, 100px); */
+    transform: translate(0, -90px);
   }
 }
 
@@ -699,6 +699,69 @@ nav .btn {
     transform: scale(.8) translate(420px, 740px);
   }
 }
+
+@media (max-width: 740px) {
+  .power .multiple-apps h1 {
+    margin: 0 auto; 
+    transform: none;
+  }
+  .power .multiple-apps .figures {
+    height: 340px;
+    margin-top: 50px;
+  }
+  .power .multiple-apps figure {
+    transform: translate(20px, 0);
+  }
+  .power .multiple-apps figure img {
+    width: 462px;
+    height: 342px;
+  }
+  .power .multiple-apps figcaption {
+    transform: scale(.8) translate(110px, -45px);
+  }
+  .power .arcade {
+    margin-top: 30px;
+  }
+  .power .arcade .figures {
+    height: auto;
+    margin-top: 20px;
+    order: 1;
+  }
+  .power .arcade figure {
+    transform: translate(20px, 0);
+  }
+  .power .arcade figure img {
+    width: 458px;
+    height: 343.38px;
+  }
+  .power .arcade figcaption {
+    transform: scale(.8) translate(320px, 370px);
+  }
+  .power .arcade .infos {
+    transform: none;
+  }
+  .power .create {
+    margin-top: 55px;
+  }
+  .power .create .infos {
+    transform: none;
+  }
+  .power .create .figures {
+    height: auto;
+    margin-top: 20px;
+  }
+  .power .create figure {
+    transform: translate(100px, 0);
+  }
+  .power .create figure img {
+    width: 525px;
+    height: 451.14px;
+  }
+  .power .create figcaption {
+    transform: scale(.8) translate(250px, 485px);
+  }
+  네 들려요 
+}
 .display {
  margin-top: 100px;
 }
@@ -777,6 +840,28 @@ nav .btn {
   }
   .display .shareplay .infos {
     transform: translate(0px, 30px);
+  }
+}
+
+@media (max-width: 740px) {
+  .display .notes h1 {
+    width: 290px;
+    height: 308px;
+    background-image: url(../images/display_headline_mobile.png);
+    transform: none;
+    margin: 0 auto;
+  }
+  .display .notes .figures {
+
+  }
+  .display .notes figure {
+
+  }
+  .display .notes figure img {
+
+  }
+  .display .notes figcaption {
+
   }
 }
 .camera {
